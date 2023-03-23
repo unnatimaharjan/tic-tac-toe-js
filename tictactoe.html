@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="tictactoe.css">
+    
+</head>
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        
+        <p id="ins">Game starts by just Tap on box<br>
+            <br>First Player starts as <b>Player X</b>
+            <br>And
+            <br>Second Player as <b>Player 0</b>
+        </p>
+
+    <div id="grid">
+        <input type="text" id="g1" class="grid-box" onclick="myfunc3(); myfunc()" readonly>
+
+        <input type="text" id="g2" class="grid-box" onclick="myfunc4(); myfunc()" readonly>
+
+        <input type="text" id="g3" class="grid-box" onclick="myfunc5(); myfunc()" readonly><br>
+        
+        <input type="text" id="g4" class="grid-box" onclick="myfunc6(); myfunc()" readonly>
+        
+        <input type="text" id="g5" class="grid-box" onclick="myfunc7(); myfunc()" readonly>
+        
+        <input type="text" id="g6" class="grid-box" onclick="myfunc8(); myfunc()" readonly><br>
+
+        <input type="text" id="g7" class="grid-box" onclick="myfunc9(); myfunc()" readonly>
+        
+        <input type="text" id="g8" class="grid-box" onclick="myfunc10(); myfunc()" readonly>
+        
+        <input type="text" id="g9"class="grid-box" onclick="myfunc11(); myfunc()" readonly>
+    
+        <br>
+        <button id="reset" onclick="myfunc2()">Reset</button>
+
+        <p id="print"></p>
+
+    </div>
+
+    <script src="tictactoe.js"></script>
+
+</body>
+</html>
