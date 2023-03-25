@@ -19,6 +19,8 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player X won');
+        myfunc2();
+
     }
 
     else if(g1=="X" && g4=="X" && g7=="X"){
@@ -30,6 +32,7 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g1=="X" && g5=="X" && g9=="X"){
@@ -41,6 +44,8 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player X won');
+        myfunc2();
+        
     }
 
     else if(g2=="X" && g5=="X" && g8=="X"){
@@ -52,6 +57,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g3=="X" && g6=="X" && g9=="X"){
@@ -63,6 +69,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g3=="X" && g5=="X" && g7=="X"){
@@ -74,6 +81,7 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g4=="X" && g5=="X" && g6=="X"){
@@ -85,6 +93,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g7=="X" && g8=="X" && g9=="X"){
@@ -96,6 +105,7 @@ function myfunc(){
         document.getElementById("g5").disabled = true;
         document.getElementById("g6").disabled = true;
         window.alert('Player X won');
+        myfunc2();
     }
 
     else if(g1=="O" && g2=="O" && g3=="O"){
@@ -107,6 +117,7 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g1=="O" && g4=="O" && g7=="O"){
@@ -118,6 +129,7 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g1=="O" && g5=="O" && g9=="O"){
@@ -129,6 +141,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g2=="O" && g5=="O" && g8=="O"){
@@ -140,6 +153,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g3=="O" && g6=="O" && g9=="O"){
@@ -151,6 +165,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g3=="O" && g5=="O" && g7=="O"){
@@ -162,6 +177,7 @@ function myfunc(){
         document.getElementById("g8").disabled = true;
         document.getElementById("g9").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g4=="O" && g5=="O" && g6=="O"){
@@ -173,6 +189,7 @@ function myfunc(){
         document.getElementById("g7").disabled = true;
         document.getElementById("g8").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if(g7=="O" && g8=="O" && g9=="O"){
@@ -184,6 +201,7 @@ function myfunc(){
         document.getElementById("g5").disabled = true;
         document.getElementById("g6").disabled = true;
         window.alert('Player O won');
+        myfunc2();
     }
 
     else if ((g1 == 'X' || g1 == 'O') && 
